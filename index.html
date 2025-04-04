@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultures - A Virtual Photography Exhibition by PhotoSoc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="landing">
+        <div class="landing-content">
+            <h1>Cultures</h1>
+            <p class="tagline">37 photographs, 370+ audience, <strong>INFINITE</strong> stories</p>
+
+            <div id="entry-door" class="door" aria-label="Enter Exhibition" role="button" tabindex="0">
+                <span class="door-handle"></span>
+                <span class="door-text">Enter</span>
+            </div>
+
+            <nav class="landing-nav">
+                <a href="#" class="nav-link" id="about-link">About the Event</a>
+                <a href="#" class="nav-link" id="refreshments-link">Virtual Refreshments</a>
+            </nav>
+        </div>
+    </section>
+
+    <main id="exhibition-space" class="hidden">
+        <button id="nav-prev" class="nav-arrow prev" aria-label="Previous Wall">&lt;</button>
+        <button id="nav-next" class="nav-arrow next" aria-label="Next Wall">&gt;</button>
+
+        <button id="return-home-btn" class="icon-btn top-left" title="Home" aria-label="Return to Home">🏠</button>
+        <button id="sticky-wall-btn" class="icon-btn top-right" title="Feedback" aria-label="Go to Feedback Wall">👥</button>
+
+        <div class="walls-container">
+            <section class="wall active" id="wall-1">
+                <!--<button class="return-home-btn" aria-label="Return to Home">✕ Home</button>!-->
+                <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo1.jpg" alt="Shot by Pablo Lorenzo Esteve"></div>
+                </div>
+                <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo2.png" alt="Shot by Devika Das"></div>
+                </div>
+                <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo3.jpg" alt="Shot by Lorraine Hayman"></div>
+                </div>
+                <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo4.jpg" alt="Shot by Darshan Senthil"></div>
+                </div>
+            </section>
+
+            <section class="wall" id="wall-2">
+                  <!--<button class="return-home-btn" aria-label="Return to Home">✕ Home</button>!-->
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo5.jpg" alt="Shot by Erin Durcan"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo6.png" alt="Shot by Suvankar Roy"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo7.jpg" alt="Shot by Haozhan Jin Lin"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo8.jpg" alt="Shot by Shivam Sharma"></div>
+                </div>
+            </section>
+
+            <section class="wall" id="wall-3">
+                  <!--<button class="return-home-btn" aria-label="Return to Home">✕ Home</button>!-->
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo9.jpeg" alt="Shot by Jay Bell"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo10.jpeg" alt="Shot by Sarah O Toole"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo11.JPEG" alt="Shot by Kelly McGonigle"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo12.JPG" alt="Shot by Alma Molina"></div>
+                </div>
+            </section>
+
+            <section class="wall" id="wall-4">
+                <!--<button class="return-home-btn" aria-label="Return to Home">✕ Home</button>!-->
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo13.jpeg" alt="Shot by Orla Campbell"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo14.jpeg" alt="Shot by Arun B"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo15.jpg" alt="Shot by Ruth Merkli"></div>
+                </div>
+                 <div class="photo-container">
+                    <div class="spotlight"></div>
+                    <div class="photo-frame"><img src="images/photo16.jpg" alt="Shot by Aodhan Morris"></div>
+                </div>
+            </section>
+
+            <section class="wall" id="wall-5">
+                 <!--<button class="return-home-btn" aria-label="Return to Home">✕ Home</button>!-->
+                <div class="sticky-wall-content">
+                    <h2 class="sticky-question">What does CULTURE mean to you?</h2>
+                    <div class="sticky-notes-area">
+                        <div class="sticky-note note-yellow" style="top: 10%; left: 15%; transform: rotate(-3deg);">Culture means multiculture or it's only half the story.</div>
+                        <div class="sticky-note note-pink" style="top: 25%; left: 30%; transform: rotate(2deg);">Gathering and sharing precious symbols of our being.</div>
+                        <div class="sticky-note note-blue" style="top: 12%; left: 55%; transform: rotate(4deg);">Home 💖</div>
+                        <div class="sticky-note note-green" style="top: 40%; left: 10%; transform: rotate(1deg);">Belonging and diversity.</div>
+                        <div class="sticky-note note-yellow" style="top: 55%; left: 40%; transform: rotate(-5deg);">Coming together as a community.</div>
+                        <div class="sticky-note note-pink" style="top: 35%; left: 65%; transform: rotate(-2deg);">Sharing something.</div>
+                        <div class="sticky-note note-blue" style="top: 70%; left: 20%; transform: rotate(3deg);">Our sense of humour and inside jokes.</div>
+                        <div class="sticky-note note-green" style="top: 65%; left: 60%; transform: rotate(0deg);">Beliefs and traditions, even the ones I question.</div>
+                        <div class="sticky-note note-yellow" style="top: 80%; left: 45%; transform: rotate(-1deg);">The way we dress or present ourselves.</div>
+                        <div class="sticky-note note-pink" style="top: 5%; left: 80%; transform: rotate(5deg);">Respecting elders and community values.</div>
+                        <div class="sticky-note note-blue" style="top: 50%; left: 85%; transform: rotate(-4deg);">Local slang and ways of talking.</div>
+                        <div class="sticky-note note-green" style="top: 85%; left: 75%; transform: rotate(2deg);">Feeling like you belong somewhere.</div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <div id="minimap" class="minimap hidden">
+        </div>
+
+    <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
+        <button class="close-lightbox" aria-label="Close image view">&times;</button>
+        <img id="lightbox-image" src="" alt="Enlarged view">
+        <p id="lightbox-caption"></p> </div>
+
+    <div id="about-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
+        <div class="modal-overlay" tabindex="-1" data-close-modal></div>
+        <div class="modal-content">
+            <button class="modal-close-btn" aria-label="Close About dialog" data-close-modal>&times;</button>
+            <h2 id="about-modal-title">About the "Cultures" Exhibition</h2>
+            <p>Welcome to "Cultures," a virtual journey exploring the rich tapestry of human life through 37 compelling photographs.</p>
+            <p>This exhibition aims to showcase diversity, connection, and the infinite stories captured within each frame. We hope you enjoy the experience.</p>
+            <p><em>Curated by PhotoSoc - University of Galway</em></p>
+             <p>Venue: Gallery, The Quad, University of Galway, Ireland</p>
+        </div>
+    </div>
+
+    <div id="refreshments-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="refreshments-modal-title">
+        <div class="modal-overlay" tabindex="-1" data-close-modal></div>
+        <div class="modal-content">
+            <button class="modal-close-btn" aria-label="Close Refreshments dialog" data-close-modal>&times;</button>
+            <h2 id="refreshments-modal-title">Virtual Refreshments</h2>
+            <p>Please help yourself to some virtual refreshments!</p>
+            <ul>
+                <li>☕ Virtual Coffee</li>
+                <li>🍵 Virtual Tea</li>
+                <li>🍪 Virtual Cookies</li>
+                <li>🥂 Virtual Champagne (for the opening!)</li>
+            </ul>
+            <p>Enjoy the exhibition!</p>
+        </div>
+    </div>
+
+    <!-- Modal for Enlarged Image -->
+    <div id="image-modal" class="modal hidden">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <img id="app-logo" src="images/logo.jpg" alt="University of Galway - PhotoSoc">
+    <script src="script.js"></script>
+
+</body>
+</html>
