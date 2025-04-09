@@ -403,6 +403,10 @@ body {
     border: 5px solid #fff; /* Optional: Add a white border like a mat */
 }
 
+.photo-frame.portrait {
+    aspect-ratio: 2/3;
+}
+
 .photo-frame:hover {
     transform: scale(1.03);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
